@@ -33,6 +33,15 @@ settings-rounding.html  Rounding rules
 settings-units.html     Units & tape precision
 store.js                Shared data layer (Settings + Log + Notes)
 styles.css              All styles
+site.webmanifest        PWA manifest (name, theme, install icons)
+favicon.ico             Root favicon (also in img/)
+img/                    Icons + glove logo
+  favicon.ico, favicon-16/32.png   Browser tab favicons
+  apple-touch-icon.png             iOS home screen (180)
+  icon-192/512.png                 PWA install icons
+  icon-512-maskable.png            Android adaptive (maskable safe zone)
+  logo-256.png, logo-64.png        In-app glove logo (hero + drawer)
+  gloveson-favicon-*.png           Master glove renders
 README.md               This file
 ```
 
@@ -84,6 +93,6 @@ Old key `gloveson_fieldcalc_settings_v1` is automatically migrated on first load
 
 ## Built By
 
-**ChanceIT Studio** — [chanceitstudio.com](https://chanceitstudio.com)
+**Chance IT Studio** — [chanceitstudio.com](https://chanceitstudio.com)
 
 Version: 1.0

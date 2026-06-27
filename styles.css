@@ -578,10 +578,20 @@ input.auto, select.auto {
 }
 
 .nav-wordmark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
   padding: 20px 20px 16px;
   margin-top: 48px;
   border-bottom: 1px solid var(--silver-low);
 }
+.nav-logo {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.45));
+}
+.nav-wordmark-text { min-width: 0; }
 .nav-wordmark-name {
   font-size: 1.15rem;
   font-weight: 900;
@@ -935,6 +945,16 @@ input.auto, select.auto {
     transparent     80px
   );
   opacity: 0.75;
+}
+
+/* ---- HERO LOGO ---- */
+.landing-logo {
+  position: relative;
+  z-index: 1;
+  width: clamp(76px, 22vw, 116px);
+  height: auto;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 6px 16px rgba(0,0,0,0.5));
 }
 
 /* ---- WORDMARK ---- */
