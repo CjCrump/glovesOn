@@ -14,7 +14,7 @@ A mobile-first progressive web app for construction crews. Everything runs offli
 
 ## Live demo
 
-https://cjcrump.github.io/glovesOn/
+https://gloveson.chanceitstudio.com/
 
 ## Screenshot
 
